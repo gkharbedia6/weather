@@ -1,0 +1,8 @@
+.loader-container {
+  @apply pointer-events-none left-full translate-x-2 -translate-y-1/2 h-10 text-base w-full text-gray-900 font-semibold absolute opacity-70;
+  &:after {
+    @apply border-l-gray-900  absolute h-5 w-5 animate-spin rounded-full border-4;
+    content: "";
+    background-image: url("../icons/loader.svg");
+  }
+}
